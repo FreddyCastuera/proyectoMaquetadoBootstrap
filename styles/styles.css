@@ -41,6 +41,12 @@ html {
 .header {
   height: 10vh;
   background-color: pink;
+  width: 100vw;
+  z-index: 100;
+}
+
+.not-header {
+  margin-top: 10vh;
 }
 
 .right div.list-group:last-of-type {
