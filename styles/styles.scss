@@ -12,6 +12,11 @@ html {
   height: 90vh;
 }
 
+.left {
+
+  background-color: transparent;
+
+}
 .right {
   .list-group-flush {
     li:not(:first-child) {
@@ -47,4 +52,9 @@ html {
 }
 .foto{
   border-radius: 50%;
+}
+
+
+.pl-10 {
+  padding-left: 10rem !important;
 }
