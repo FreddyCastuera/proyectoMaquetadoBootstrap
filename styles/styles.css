@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -15,12 +16,15 @@ html {
 }
 
 .left {
+  /*
   background-color: red;
+  */
 }
 
 .right .list-group-flush li:not(:first-child) {
   margin-left: 5%;
 }
+
 .right .list-group-flush li:not(:first-child):hover {
   color: blue;
 }
@@ -46,26 +50,5 @@ html {
 
 .right div.list-group:last-of-type {
   margin-bottom: 10%;
-}/*# sourceMappingURL=styles.css.map */
-
-.foto {
-  vertical-align: middle;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
 }
-.crv-encabezado{
-  margin-left: 45px;
-  @media (min-width: 576px) { 
-    margin-left:10px;
-   }
-  
-}
-.crv-encabezadodetalle{
-  font-size: 35px;
-  font-weight: bold;
-  @media (min-width: 576px) { 
-    font-size: 20px;
-   }
-
-}
+/*# sourceMappingURL=styles.css.map */
