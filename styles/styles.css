@@ -66,6 +66,7 @@ html {
 .crv-encabezado {
   margin-left: 45px;
 }
+
 @media (min-width: 576px) {
   .crv-encabezado {
     margin-left: 0px;
@@ -76,6 +77,7 @@ html {
   font-size: 25px;
   font-weight: bold;
 }
+
 @media (min-width: 576px) {
   .crv-encabezadodetalle {
     font-size: 20px;
@@ -85,6 +87,13 @@ html {
 .foto {
   border-radius: 100%;
   width: 35px;
+}
+
+.aside-izquierdo {
+  /* inicio:  styles del la carta 1   */
+  /* fin carta 1 aside izquierdo*/
+  /* inicio carta 3 aside izquierdo */
+  /*  fin carta 3 aside izquierdo */
 }
 
 .aside-izquierdo .color-blue {
@@ -120,5 +129,11 @@ html {
 
 .aside-izquierdo a:hover.tipo-liga {
   background-color: rgba(0, 0, 0, 0.035);
+}
+
+.aside-izquierdo .popular-list {
+  max-height: 250px;
+  overflow: scroll;
+  border-bottom: 0;
 }
 /*# sourceMappingURL=styles.css.map */

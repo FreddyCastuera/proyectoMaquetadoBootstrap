@@ -94,6 +94,8 @@ html {
     color: $color-azul;    
   }
  
+
+  /* inicio:  styles del la carta 1   */
   .carta-titulo {
     font-size: 1.13rem;
   }
@@ -127,7 +129,22 @@ html {
     }
   }
 
+   /* fin carta 1 aside izquierdo*/
 
+
+
+
+   /* inicio carta 3 aside izquierdo */
+
+   .popular-list{
+
+      max-height: 250px;               
+      overflow:scroll;   
+      border-bottom: 0; 
+
+   }
+
+   /*  fin carta 3 aside izquierdo */
 
   
 
