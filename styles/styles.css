@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -24,7 +23,6 @@ html {
 .right .list-group-flush li:not(:first-child) {
   margin-left: 5%;
 }
-
 .right .list-group-flush li:not(:first-child):hover {
   color: blue;
 }
@@ -50,9 +48,4 @@ html {
 
 .right div.list-group:last-of-type {
   margin-bottom: 10%;
-<<<<<<< HEAD
 }/*# sourceMappingURL=styles.css.map */
-=======
-}
-/*# sourceMappingURL=styles.css.map */
->>>>>>> a497cd39ce3880f3e89f40568f217984e8ca9591
