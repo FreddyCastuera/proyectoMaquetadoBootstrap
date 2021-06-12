@@ -56,7 +56,9 @@ html {
 }
 .crv-encabezado{
   margin-left: 45px;
- 
+  @media (min-width: 576px) { 
+    margin-left:10px;
+   }
   
 }
 .crv-encabezadodetalle{
