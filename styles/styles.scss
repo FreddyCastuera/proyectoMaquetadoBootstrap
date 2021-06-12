@@ -11,6 +11,7 @@ html {
 .right {
   height: 90vh;
 }
+
 .left {
 
   background-color: transparent;
@@ -47,6 +48,10 @@ html {
   div.list-group:last-of-type {
     margin-bottom: 10%;
   }
+
+}
+.foto{
+  border-radius: 50%;
 }
 
 
@@ -56,6 +61,25 @@ html {
   padding-left: 10rem !important;
 }
 
+.crv-encabezado{
+  margin-left: 45px;
+  @media (min-width: 576px) { 
+    margin-left:0px;
+   }
+  
+}
+.crv-encabezadodetalle{
+  font-size: 25px;
+  font-weight: bold;
+  @media (min-width: 576px) { 
+    font-size: 20px;
+   }
+
+}
+.foto{
+  border-radius: 100%;
+                width: 35px;
+}
 
 .aside-izquierdo
 {
