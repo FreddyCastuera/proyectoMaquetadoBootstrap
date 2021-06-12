@@ -54,6 +54,7 @@ html {
   border-radius: 50%;
 }
 
+/*ASIDE IZQUIERDO*/
 .pl-10 {
   padding-left: 10rem !important;
 }
@@ -82,5 +83,40 @@ html {
 .foto {
   border-radius: 100%;
   width: 35px;
+}
+
+.aside-izquierdo .color-blue {
+  color: #3b49df;
+}
+
+.aside-izquierdo .carta-titulo {
+  font-size: 1.13rem;
+}
+
+.aside-izquierdo .carta-parrafo {
+  color: #4d5760;
+  font-size: 1rem;
+}
+
+.aside-izquierdo .btn-primary {
+  background-color: #3b49df;
+  border: #3b49df;
+  width: 100%;
+}
+
+.aside-izquierdo .liga {
+  display: block;
+  border-radius: 5px;
+  color: #3b49df;
+  margin-top: 1rem;
+  padding: 0.3rem  0;
+}
+
+.aside-izquierdo a:hover.tipo-boton {
+  background-color: #323ebe;
+}
+
+.aside-izquierdo a:hover.tipo-liga {
+  background-color: rgba(0, 0, 0, 0.035);
 }
 /*# sourceMappingURL=styles.css.map */
