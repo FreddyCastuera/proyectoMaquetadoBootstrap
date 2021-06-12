@@ -11,11 +11,7 @@ html {
 .right {
   height: 90vh;
 }
-.left {
-  /*
-  background-color: red;
-  */
-}
+
 .right {
   .list-group-flush {
     li:not(:first-child) {
@@ -47,4 +43,8 @@ html {
   div.list-group:last-of-type {
     margin-bottom: 10%;
   }
+
+}
+.foto{
+  border-radius: 50%;
 }
