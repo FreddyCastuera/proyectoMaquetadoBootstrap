@@ -16,9 +16,7 @@ html {
 }
 
 .left {
-  /*
-  background-color: red;
-  */
+  background-color: transparent;
 }
 
 .right .list-group-flush li:not(:first-child) {
@@ -50,9 +48,9 @@ html {
 
 .right div.list-group:last-of-type {
   margin-bottom: 10%;
-<<<<<<< HEAD
-}/*# sourceMappingURL=styles.css.map */
-=======
+}
+
+.pl-10 {
+  padding-left: 10rem !important;
 }
 /*# sourceMappingURL=styles.css.map */
->>>>>>> a497cd39ce3880f3e89f40568f217984e8ca9591
