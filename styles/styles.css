@@ -36,7 +36,6 @@ html {
 
 .header {
   height: 10vh;
-  background-color: pink;
   width: 100vw;
   z-index: 100;
 }

@@ -6,7 +6,6 @@
 html {
   font-size: 16px;
 }
-
 .left,
 .center,
 .right {
@@ -28,14 +27,13 @@ html {
 .center {
   background-color: green;
 }
-
 .left,
 .right {
   display: none;
 }
 .header {
   height: 10vh;
-  background-color: pink;
+
   width: 100vw;
   z-index: 100;
 }
