@@ -36,7 +36,7 @@
 }
 
 .left-fixed {
-  border: 1px solid blue;
+  background-color: ghostwhite;
 }
 
 .left, .center, .right {
@@ -78,4 +78,12 @@
   font-size: 0.8rem;
   width: 50%;
   text-align: center;
+}
+
+.avoid-overlap {
+  top: 15vh;
+}
+
+.heart:hover, .unicorn:hover, .flag:hover, .more:hover {
+  filter: opacity(0.3);
 }/*# sourceMappingURL=styles_second.css.map */

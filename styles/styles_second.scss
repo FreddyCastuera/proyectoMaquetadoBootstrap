@@ -31,7 +31,7 @@
 }
 
 .left-fixed{
-    border:1px solid blue;
+    background-color: ghostwhite;
 }
 .left,.center,.right{
     height: 500vh;
@@ -76,4 +76,12 @@
         width: 50%;
         text-align: center;
     }
+}
+
+.avoid-overlap{
+    top:15vh;
+}
+
+.heart:hover,.unicorn:hover,.flag:hover,.more:hover{
+    filter: opacity(.3);
 }
