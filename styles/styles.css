@@ -46,4 +46,30 @@ html {
 
 .right div.list-group:last-of-type {
   margin-bottom: 10%;
+<<<<<<< HEAD
 }/*# sourceMappingURL=styles.css.map */
+=======
+}/*# sourceMappingURL=styles.css.map */
+
+.foto {
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.crv-encabezado{
+  margin-left: 45px;
+  @media (min-width: 576px) { 
+    margin-left:10px;
+   }
+  
+}
+.crv-encabezadodetalle{
+  font-size: 35px;
+  font-weight: bold;
+  @media (min-width: 576px) { 
+    font-size: 20px;
+   }
+
+}
+>>>>>>> 3d22a62925371aeb52ab54ed17d27fc4fab032c6
