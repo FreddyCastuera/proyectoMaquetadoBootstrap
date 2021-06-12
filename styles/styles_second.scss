@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    height: 10vh;
+    
+    border:1px solid red;
+}
+.left,.center,.right{
+    height: 90vh;
+}
+.footer{
+    height: 50vh;
+    border:1px solid pink;
+}
+.left{
+    border:1px solid blue;
+}
+.center{
+    border:1px solid chartreuse;
+}
+.right{
+    border:1px solid coral;
+}
+.footer{
+    border:1px solid yellow;
+}
+
+.left-fixed{
+    border:1px solid blue;
+}
+.left,.center,.right{
+    height: 500vh;
+}
+
+.make-me-sticky {
+    position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      
+  }
