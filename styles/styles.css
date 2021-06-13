@@ -62,7 +62,7 @@ header {
 
 @media (min-width: 576px) {
   .not-header {
-    margin-top: 10vh;
+    margin-top: 7vh;
   }
 }
 
@@ -95,6 +95,9 @@ header {
 @media (min-width: 576px) {
   .crv-menupost {
     visibility: visible;
+  }
+  .crv-menupost p {
+    font-weight: bold;
   }
 }
 
@@ -148,6 +151,7 @@ header {
 @media (min-width: 576px) {
   .crv-menumovil {
     visibility: hidden;
+    height: 0px;
   }
 }
 
