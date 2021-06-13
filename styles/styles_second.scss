@@ -18,6 +18,10 @@
         margin-right:-25px;
       }
     }
+    .card-right,.info-right,.main-content{
+        margin-left:-12px;
+        margin-right: -12px;
+    }
     .footer{
         height: 50vh !important;
     }
@@ -186,5 +190,5 @@
     width:40%;
     justify-content: space-between;
     margin-bottom: 15px;
-
 }
+
