@@ -58,7 +58,7 @@ html {
 /*ASIDE IZQUIERDO*/
 
 .pl-10 {
-  padding-left: 10rem;
+  padding-left: 10%;
 }
 .pr-10 {
   padding-right: 10rem !important;
@@ -164,20 +164,30 @@ html {
             /* background-color: rgba(8, 9, 10, 0.05); */
           }
 
-                   
+
+          .padre:hover{
+            a:last-child{
+              opacity: 100%;
+              background-color: $color-azul;
+            }
+          }          
+
 
   
    }   /* fin de popular list*/
 
    /*  fin carta 3 aside izquierdo */
 
-  
+
+
 
 
 }  /* fin del aside izquierdo*/
-.padre:hover{
-  a:last-child{
-    opacity: 100%;
-  }
+
+.oscar{
+  min-width: 300px;
 }
+
+
+
 
