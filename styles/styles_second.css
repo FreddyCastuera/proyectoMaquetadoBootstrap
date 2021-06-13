@@ -1,9 +1,12 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+html {
+  font-size: 16px;
 }
 
 .header {
@@ -89,7 +92,21 @@
 }
 
 .heart:hover, .unicorn:hover, .flag:hover, .more:hover {
-  -webkit-filter: opacity(0.3);
-          filter: opacity(0.3);
+  filter: opacity(0.3);
 }
-/*# sourceMappingURL=styles_second.css.map */
+
+.simple-imagen {
+  height: 12vh;
+}
+
+.simple-text {
+  height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 0.7rem;
+  padding-left: 1rem;
+}
+.simple-text p:first-child {
+  margin-bottom: 1px;
+}/*# sourceMappingURL=styles_second.css.map */
