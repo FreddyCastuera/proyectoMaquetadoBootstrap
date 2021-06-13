@@ -395,7 +395,8 @@ header {
 
 .aside-izquierdo .popular-list a.hijo-lista-boton:hover {
   opacity: 100%;
-  background-color: #323ebe;
+  background-color: #323ebe !important;
+  border-color: #323ebe;
 }
 
 .aside-izquierdo .popular-list a.hijo-lista-link {
@@ -408,8 +409,7 @@ header {
 
 .aside-izquierdo .popular-list a.hijo-lista-link:hover {
   text-decoration: none;
-  color: #323ebe;
-  /* background-color: rgba(8, 9, 10, 0.05); */
+  color: #323ebe !important;
 }
 
 .aside-izquierdo .popular-list a.hijo-lista-link:hover + a {
@@ -475,6 +475,10 @@ header {
 .aside-izquierdo .menu-link-hover div {
   padding-left: 1rem;
   padding-right: 0.4rem;
+}
+
+.aside-izquierdo .menu-link-hover label {
+  font-size: smaller;
 }
 
 .aside-izquierdo .redes {

@@ -376,7 +376,8 @@ header{
           }
           a.hijo-lista-boton:hover{
               opacity: 100%; 
-              background-color:  $color-boton-azul-hover;
+              background-color:  $color-boton-azul-hover !important;
+              border-color: $color-boton-azul-hover 
 
            }      
 
@@ -389,8 +390,8 @@ header{
 
           a.hijo-lista-link:hover{
             text-decoration: none;
-            color: $color-boton-azul-hover; 
-            /* background-color: rgba(8, 9, 10, 0.05); */
+            color: $color-boton-azul-hover !important; 
+            
 
             
           }
@@ -413,6 +414,7 @@ header{
 
             height: 4rem;
           }
+
 
           /*
           .list-group-item:hover {
@@ -479,6 +481,12 @@ header{
       padding-left: 1rem;
       padding-right: 0.4rem;
       
+    }
+
+
+    label {
+      font-size: smaller;
+
     }
 
 }
