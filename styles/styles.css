@@ -392,6 +392,9 @@ html {
 
 
   }
-}         
+}        
 */
+.toggle:active {
+  display: none;
+}
 /*# sourceMappingURL=styles.css.map */
