@@ -22,9 +22,11 @@ html {
     margin-right: -25px;
   }
 }
+
 header {
   background-color: ghostwhite;
 }
+
 header nav {
   background-color: ghostwhite;
 }
@@ -77,13 +79,16 @@ header nav {
 .footer {
   background-color: gainsboro;
 }
+
 .footer .fila-links {
   height: 15vh;
 }
+
 .footer .fila-links ul {
   width: 50%;
   height: 15vh;
 }
+
 .footer .fila-links ul li {
   font-size: 0.8rem;
   width: 11%;
@@ -139,5 +144,4 @@ header nav {
 .simple-text p:first-child {
   margin-bottom: 1px;
 }
-/*# sourceMappingURL=styles_second.css.map */
 /*# sourceMappingURL=styles_second.css.map */
