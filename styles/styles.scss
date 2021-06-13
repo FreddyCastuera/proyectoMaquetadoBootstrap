@@ -264,6 +264,7 @@ header{
   $color-azul: #3b49df;  
   $color-gris: #4d5760;    
   $color-boton-azul-hover: #323ebe;
+  $color-gris-letra:#202428;
 
   .color-blue {
     color: $color-azul;    
@@ -395,6 +396,61 @@ header{
         
 
       }  /*  fin carta 3 aside izquierdo */
+
+
+      
+
+.menu-link-hover
+{
+
+    color:$color-gris;
+
+
+    button,li{
+      display: flex;
+      padding-right: 0;
+      padding-left: 0;
+
+
+    }
+
+    a{
+      color:$color-gris-letra;
+      font-size: 1.0rem;       
+      flex-grow: 1;
+
+        &.sign-in{ 
+          font-size: 1.em;
+          font-weight: bold;   
+          color: #08090A; 
+        }
+   
+    } 
+
+    a:hover{
+      text-decoration: none;
+      color: $color-azul; 
+      
+    }
+    div{
+      
+      padding-left: 1rem;
+      padding-right: 0.4rem;
+      
+    }
+
+    label
+    {
+      color:red;
+    }
+
+   
+
+}
+
+
+
+
 
 
 
