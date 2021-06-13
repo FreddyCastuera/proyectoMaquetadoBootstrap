@@ -54,13 +54,16 @@ html {
 .footer {
   background-color: gainsboro;
 }
+
 .footer .fila-links {
   height: 15vh;
 }
+
 .footer .fila-links ul {
   width: 50%;
   height: 15vh;
 }
+
 .footer .fila-links ul li {
   font-size: 0.8rem;
   width: 11%;
