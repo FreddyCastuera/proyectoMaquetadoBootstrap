@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -9,9 +8,27 @@ html {
   font-size: 16px;
 }
 
-.left,
-.center,
-.right {
+@media screen and (max-width: 768px) {
+  nav .nav-icons {
+    margin-left: -10px;
+  }
+  nav .nav-buttons {
+    margin-right: -25px;
+  }
+}
+header {
+  background-color: ghostwhite;
+}
+
+.nav-icons {
+  margin-left: 4%;
+}
+
+.nav-buttons {
+  margin-right: 4%;
+}
+
+.left, .center, .right {
   height: 90vh;
 }
 
@@ -22,7 +39,6 @@ html {
 .right .list-group-flush li:not(:first-child) {
   margin-left: 5%;
 }
-
 .right .list-group-flush li:not(:first-child):hover {
   color: blue;
 }
@@ -66,28 +82,21 @@ html {
   margin-top: 1opx;
   visibility: hidden;
 }
-
 @media (min-width: 576px) {
   .crv-menupost {
     visibility: visible;
   }
 }
-
 .crv-menupost .crv-itemmenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   width: 100%;
 }
-
 .crv-menupost .crv-itemmenu div a {
   font-size: 12px;
   color: black;
   font-weight: 200;
 }
-
 .crv-menupost .crv-itemmenu div a:hover {
   font-weight: 500;
 }
@@ -96,32 +105,27 @@ html {
   padding-left: 0px;
   color: #08090A;
 }
-
 @media (min-width: 576px) {
   .crv-encabezado {
     padding-left: 45px;
     color: #08090A;
   }
 }
-
 .crv-encabezado .crv-encabezadodetalle {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 0px;
 }
-
 @media (min-width: 576px) {
   .crv-encabezado .crv-encabezadodetalle {
     font-size: 25px;
   }
 }
-
 .crv-encabezado a {
   color: #64707D;
   padding-right: 10px;
   font-size: 12px;
 }
-
 .crv-encabezado p:hover {
   color: blue;
   cursor: pointer;
@@ -130,22 +134,18 @@ html {
 .card-body .d-flex {
   height: 35px;
 }
-
 .card-body .d-flex .foto {
   border-radius: 100%;
   width: 35px;
   cursor: pointer;
 }
-
 .card-body .d-flex .name {
   cursor: pointer;
 }
-
 .card-body .d-flex h5 {
   font-weight: 300;
   color: #64707D;
 }
-
 .card-body .d-flex p {
   font-size: 10px;
   color: #64707D;
@@ -156,45 +156,30 @@ html {
   margin-top: 20px;
   margin-right: 0;
   padding-right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 @media (min-width: 576px) {
   .crv-footer {
     margin-left: 37px;
   }
 }
-
 .crv-footer .crv-reactions {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-right: 5px;
   padding-left: 0px;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  justify-content: start;
 }
-
 @media (min-width: 576px) {
   .crv-footer .crv-reactions {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
     padding-right: 25px;
   }
 }
-
 .crv-footer .crv-reactions .p-reactions {
   visibility: hidden;
   color: #64707D;
 }
-
 @media (min-width: 576px) {
   .crv-footer .crv-reactions .p-reactions {
     visibility: visible;
@@ -202,24 +187,18 @@ html {
     color: #64707D;
   }
 }
-
 .crv-footer .crv-reactions:hover {
   background: darkgray;
   cursor: pointer;
 }
-
 .crv-footer .crv-comments {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .crv-footer .crv-comments .p-comment {
   padding-left: 5px;
   visibility: hidden;
   color: #64707D;
 }
-
 @media (min-width: 576px) {
   .crv-footer .crv-comments .p-comment {
     visibility: visible;
@@ -227,33 +206,21 @@ html {
     color: #64707D;
   }
 }
-
 .crv-footer .crv-comments:hover {
   background: darkgray;
   cursor: pointer;
 }
-
 .crv-footer .crv-time {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   color: #64707D;
   padding-right: 5px;
 }
-
 .crv-footer .crv-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  justify-content: start;
   padding-left: 0;
 }
-
 .crv-footer .crv-button button {
   background: #D2D6DB;
   color: black;
@@ -272,102 +239,76 @@ html {
   /*  inicio carta 3 aside izquierdo */
   /*  fin carta 3 aside izquierdo */
 }
-
 .aside-izquierdo .color-blue {
   color: #3b49df;
 }
-
 .aside-izquierdo .carta-titulo {
   font-size: 1.13rem;
 }
-
 .aside-izquierdo .carta-parrafo {
   color: #4d5760;
   font-size: 1rem;
 }
-
 .aside-izquierdo .btn-primary {
   background-color: #3b49df;
   border: #3b49df;
   width: 100%;
 }
-
 .aside-izquierdo .liga {
   display: block;
   border-radius: 5px;
   color: #3b49df;
   margin-top: 1rem;
-  padding: 0.3rem  0;
+  padding: 0.3rem 0;
 }
-
 .aside-izquierdo a:hover.tipo-boton {
   background-color: #323ebe;
 }
-
 .aside-izquierdo a:hover.tipo-liga {
   background-color: rgba(0, 0, 0, 0.035);
 }
-
 .aside-izquierdo .popular-tags-title {
   font-weight: bold;
   font-size: 1.2rem;
 }
-
 .aside-izquierdo .popular-list {
   max-height: 350px;
   overflow-y: scroll;
   /*
-          .list-group-item:hover {
-            background-color: red;
-          }
-          */
+  .list-group-item:hover {
+    background-color: red;
+  }
+  */
 }
-
 .aside-izquierdo .popular-list a.hijo-lista-boton {
   opacity: 0%;
 }
-
 .aside-izquierdo .popular-list a.hijo-lista-boton:hover {
   opacity: 100%;
   background-color: #323ebe;
 }
-
 .aside-izquierdo .popular-list a.hijo-lista-link {
-  font-size: 1.0rem;
+  font-size: 1rem;
   color: black;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
-
 .aside-izquierdo .popular-list a.hijo-lista-link:hover {
   text-decoration: none;
   color: #323ebe;
   /* background-color: rgba(8, 9, 10, 0.05); */
 }
-
 .aside-izquierdo .popular-list a.hijo-lista-link:hover + a {
   opacity: 100%;
   background-color: #3b49df;
 }
-
 .aside-izquierdo .popular-list .padre-list-items {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
 .aside-izquierdo .popular-list .list-group-item {
   height: 4rem;
 }
-
 .aside-izquierdo .card-formato-shop {
   display: block;
   font-size: 1.4em;
@@ -393,5 +334,4 @@ html {
 
   }
 }         
-*/
-/*# sourceMappingURL=styles.css.map */
+*//*# sourceMappingURL=styles.css.map */
