@@ -61,7 +61,7 @@ html {
 }
 
 .crv-menupost {
-  margin-top: 4px;
+  margin-top: 15px;
 }
 .crv-menupost .crv-itemmenu {
   visibility: hidden;
@@ -109,10 +109,25 @@ html {
   font-size: 12px;
 }
 
+.crv-encabezado p:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.card-body .d-flex {
+  height: 35px;
+}
+
 .card-body .d-flex .foto {
   border-radius: 100%;
   width: 35px;
+  cursor: pointer;
 }
+
+.card-body .d-flex .name {
+  cursor: pointer;
+}
+
 .card-body .d-flex h5 {
   font-weight: 300;
   color: #64707D;
@@ -130,6 +145,13 @@ html {
   display: flex;
   justify-content: center;
 }
+
+@media (min-width: 576px) {
+  .crv-footer {
+    margin-left: 37px;
+  }
+}
+
 .crv-footer .crv-reactions {
   display: flex;
   padding-right: 5px;
@@ -153,6 +175,12 @@ html {
     color: #64707D;
   }
 }
+
+.crv-footer .crv-reactions:hover {
+  background: darkgray;
+  cursor: pointer;
+}
+
 .crv-footer .crv-comments {
   display: flex;
 }
@@ -168,6 +196,12 @@ html {
     color: #64707D;
   }
 }
+
+.crv-footer .crv-comments:hover {
+  background: darkgray;
+  cursor: pointer;
+}
+
 .crv-footer .crv-time {
   display: flex;
   justify-content: flex-end;
@@ -195,6 +229,7 @@ html {
   /* fin de popular list*/
   /*  fin carta 3 aside izquierdo */
 }
+
 .aside-izquierdo .color-blue {
   color: #3b49df;
 }
@@ -223,21 +258,26 @@ html {
 .aside-izquierdo a:hover.tipo-liga {
   background-color: rgba(0, 0, 0, 0.035);
 }
+
 .aside-izquierdo .popular-list {
   max-height: 250px;
   overflow-y: scroll;
 }
+
 .aside-izquierdo .popular-list a.ocultar {
   opacity: 0%;
 }
+
 .aside-izquierdo .popular-list a.ocultar:hover {
   opacity: 100%;
   background-color: #323ebe;
 }
+
 .aside-izquierdo .popular-list a.liga-popular {
   font-size: 1.2rem;
   color: black;
 }
+
 .aside-izquierdo .popular-list a.liga-popular:hover {
   text-decoration: none;
   color: #323ebe;
@@ -248,3 +288,5 @@ html {
 .padre:hover a:last-child {
   opacity: 100%;
 }/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=styles.css.map */
