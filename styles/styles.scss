@@ -179,18 +179,18 @@ html {
 
     .p-reactions{
       visibility:hidden;
-      color: #64707D;
+      
       @media (min-width: 576px) { 
        visibility:visible;
        padding-left: 5px;
-       color: #64707D;
+      
        }
       
     }
     
   }
   .crv-reactions:hover{
-    background: darkgray;
+
     cursor: pointer;
   }
 
@@ -209,7 +209,7 @@ html {
   }
 
   .crv-comments:hover{
-    background: darkgray;
+   
     cursor: pointer;
   }
   .crv-time{

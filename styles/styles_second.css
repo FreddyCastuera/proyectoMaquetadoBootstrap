@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -92,7 +93,8 @@ html {
 }
 
 .heart:hover, .unicorn:hover, .flag:hover, .more:hover {
-  filter: opacity(0.3);
+  -webkit-filter: opacity(0.3);
+          filter: opacity(0.3);
 }
 
 .simple-imagen {
@@ -101,12 +103,21 @@ html {
 
 .simple-text {
   height: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   font-size: 0.7rem;
   padding-left: 1rem;
 }
+
 .simple-text p:first-child {
   margin-bottom: 1px;
-}/*# sourceMappingURL=styles_second.css.map */
+}
+/*# sourceMappingURL=styles_second.css.map */
