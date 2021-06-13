@@ -45,27 +45,81 @@
                  </div>
             </aside>
             <main class="col-12 col-md-10 center col-xl-6 " >center
-                <div style="margin-top:10vh;">
-                    <div class="card mb-3">
-                        <img src="https://picsum.photos/seed/picsum/600/600" class="card-img-top" alt="..." style="height:15rem;">
+                <div style="margin-top:10vh pl-0 pr-0 sin-padding">
+                    <div class="minimal-oscar">
+                        <img src="/images/minimal.jpg" class="card-img-top" alt="..." style="height:15rem;">
                         <div class="card-body">
-                          <h1 class="card-title font-weight-bold">Lorem Ipsum</h1>
-                          <small class="rounded bg-warning small">#lorem</small>
-                          <small class="rounded bg-primary small">#ipsum</small>
-                          <small class="rounded bg-danger small ">#lorem</small>
-                          <small class="rounded bg-success small">#ipsum</small>
+                          <h1 class="card-title font-weight-bold">Minimal Cover</h1>
+                          <small class="rounded bg-warning small">#database</small>
+                          <small class="rounded small" style="background-color: #d98cd9;color:#323232">#computerscience</small>
+
                           <div class="image-container d-flex">
-                            <img class="rounded-circle" src="images/image-colton.jpg" alt="" style="width:25px;">
-                                <small>Colton Bolton</small>
+                            <img class="rounded-circle" src="images/hebaShakeel.png" alt="" style="width:25px;">
+                                <small>hebaShakell</small>
                                 <small class="text-muted">13 jun</small>
-                                <small class="text-muted">5 min read</small>
+                                <small class="text-muted">1 min read</small>
                           </div>
-                          <p class="card-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis alias eaque ex ad sit cumque odio nemo excepturi assumenda! Ratione consequuntur atque eveniet ullam facere iure ducimus quo earum distinctio.Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam delectus cum praesentium dolores optio. Libero velit facilis nesciunt natus dolore minus soluta voluptatibus incidunt rerum, pariatur eos iure distinctio delectus.
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam autem voluptatibus quis assumenda adipisci vel accusantium enim asperiores blanditiis voluptatem at, sed ea quas eligendi laboriosam cupiditate, nostrum optio id? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolorum minima, pariatur fugit deserunt nihil non praesentium? A, atque id praesentium unde, dolores commodi ullam deserunt, at dicta soluta accusantium. Lorem
-                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga nemo pariatur vel sint earum eum eveniet temporibus laudantium, iure a. Dicta voluptates, temporibus soluta suscipit eaque quibusdam minus provident odio! lorem
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate voluptatibus provident nulla quaerat ipsum consequatur tempore neque, officia veniam, harum unde obcaecati ullam dolorum architecto minima delectus iure itaque. lorem 
-                              lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia placeat quo quae omnis eaque beatae, expedita quasi maxime obcaecati. Magnam culpa, veritatis cum aut eum iste esse incidunt tenetur maxime? Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                          </p>
+                          
+                    <!--articulo inicio-->
+                    <div class="card-text" data-article-id="726886" id="article-body">
+
+                                        <p>A minimal cover is a simplified and reduced version of the given  set of functional dependencies.<br>
+                                        Since it is a reduced version, it is also called as <strong>Irreducible set</strong>.<br>
+                                        It is also called as <strong>Canonical Cover</strong>.</p>
+                                        
+                                        <p><strong>Steps to Find Minimal Cover</strong></p>
+                                        
+                                        <p><strong>1) Split the right-hand attributes of all FDs.</strong><br>
+                                        <strong>Example</strong> <br>
+                                        A-&gt;XY  =&gt; A-&gt;X, A-&gt;Y</p>
+                                        
+                                        <p><strong>2) Remove all  redundant FDs.</strong><br>
+                                        <strong>Example</strong><br>
+                                        { A-&gt;B, B-&gt;C, A-&gt;C }<br>
+                                        Here A-&gt;C is redundant since it can already be achieved using the Transitivity Property.</p>
+                                        
+                                        <p><strong>3) Find the Extraneous attribute and remove it.</strong><br>
+                                        <strong>Example</strong><br>
+                                        AB-&gt;C, either A or B or none can be extraneous.<br>
+                                        If A closure contains B then B is extraneous and it can be removed.<br>
+                                        If B closure contains A then A is extraneous and it can be removed. </p>
+                                        
+                                        <p><strong>Example 1</strong><br>
+                                        Minimize {A-&gt;C, AC-&gt;D, E-&gt;H, E-&gt;AD}</p>
+                                        
+                                        <p><strong>Step 1</strong>: {A-&gt;C, AC-&gt;D, E-&gt;H, E-&gt;A, E-&gt;D}</p>
+                                        
+                                        <p><strong>Step 2</strong>: {A-&gt;C, AC-&gt;D, E-&gt;H, E-&gt;A}<br>
+                                        Here Redundant FD : {E-&gt;D}</p>
+                                        
+                                        <p><strong>Step 3</strong>: {AC-&gt;D}<br>
+                                        {A}+ = {A,C}<br>
+                                        Therefore C is extraneous and is removed.<br>
+                                        {A-&gt;D}</p>
+                                        
+                                        <p>Minimal Cover = {A-&gt;C, A-&gt;D, E-&gt;H, E-&gt;A}  </p>
+                                        
+                                        <p><strong>Example 2</strong><br>
+                                        Minimize {AB-&gt;C, D-&gt;E, AB-&gt;E, E-&gt;C}</p>
+                                        
+                                        <p><strong>Step 1</strong>: {AB-&gt;C, D-&gt;E, AB-&gt;E, E-&gt;C}</p>
+                                        
+                                        <p><strong>Step 2</strong>: {D-&gt;E, AB-&gt;E, E-&gt;C}<br>
+                                        Here Redundant FD = {AB-&gt;C}</p>
+                                        
+                                        <p><strong>Step 3</strong>: {AB-&gt;E}<br>
+                                        {A}+ = {A}<br>
+                                        {B}+ = {B}<br>
+                                        There is no extraneous attribute.</p>
+                                        
+                                        <p>Therefore, Minimal cover = {D-&gt;E, AB-&gt;E, E-&gt;C}</p>
+
+
+                                    </div>
+
+
+                    <!--articulo fin-->
+                          
                         </div>
                       </div>
                   </div>
