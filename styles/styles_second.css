@@ -9,10 +9,6 @@ html {
   font-size: 16px;
 }
 
-.header {
-  height: 10vh;
-}
-
 @media screen and (max-width: 768px) {
   nav .nav-icons {
     margin-left: -10px;
@@ -21,13 +17,20 @@ html {
     margin-right: -25px;
   }
 
+  .footer {
+    height: 50vh !important;
+  }
+
   .fila-links {
-    border: 1px solid red;
     width: 100% !important;
   }
   .fila-links ul {
-    border: 1px solid blue;
     width: 100% !important;
+    height: 100px !important;
+    align-content: flex-start;
+  }
+  .fila-links ul li {
+    width: 20% !important;
   }
 
   .footer {
@@ -35,25 +38,24 @@ html {
   }
 
   .fila-logos {
-    border: 1px solid red;
+    margin-top: -15px;
   }
 
-  .fila-texto-uno {
-    border: 1px solid red;
-  }
   .fila-texto-uno p {
-    border: 1px solid blue;
     width: 100% !important;
   }
 
-  .fila-texto-dos {
-    border: 1px solid red;
-  }
   .fila-texto-dos p {
-    border: 1px solid blue;
     width: 100% !important;
   }
 }
+.fila-logos {
+  margin-top: -25px;
+}
+.fila-logos .logos {
+  width: 180px !important;
+}
+
 header {
   background-color: ghostwhite;
 }
@@ -164,4 +166,16 @@ header nav {
 }
 .buttons-left {
   margin-top: 10px !important;
+}
+
+.small {
+  color: white;
+  padding: 2px;
+}
+
+.image-container {
+  margin-top: 15px;
+  width: 40%;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=styles_second.css.map */
