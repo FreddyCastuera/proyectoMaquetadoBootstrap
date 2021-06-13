@@ -27,9 +27,7 @@ html {
     }
   }
 }
-.center {
-  background-color: green;
-}
+
 .left,
 .right {
   display: none;
@@ -67,25 +65,153 @@ html {
   min-width: 300px;
 }
 
+.crv-menupost{
+  margin-top: 4px;
+
+ .crv-itemmenu{
+  
+   visibility: hidden;
+   @media (min-width: 576px) { 
+    visibility: visible;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    div{
+      a{
+        font-size: 12px;
+        color: black;
+        font-weight: 200;
+      }
+    a:hover {
+       font-weight: 500;
+    }
+  
+  }
+ }
+}
+}
+
 .crv-encabezado{
-  margin-left: 45px;
+  
+  padding-left: 0px;
+  color: #08090A;
+  
   @media (min-width: 576px) { 
-    margin-left:0px;
+    padding-left:45px;
+    color: #08090A;
+   
+   }
+   .crv-encabezadodetalle{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    @media (min-width: 576px) { 
+      font-size: 25px;
+     }
+   }
+   a{
+    color: #64707D;
+
+    padding-right: 10px;
+    font-size: 12px;
    }
   
 }
-.crv-encabezadodetalle{
-  font-size: 25px;
-  font-weight: bold;
-  @media (min-width: 576px) { 
-    font-size: 20px;
-   }
 
+
+
+
+.card-body{
+    
+    .d-flex{
+      .foto{
+        border-radius: 100%;
+                      width: 35px;
+      }
+      h5{
+        font-weight: 300;
+        color: #64707D;
+      }
+      p{
+        font-size: 10px;
+        color: #64707D;
+       
+      }
+    }
 }
-.foto{
-  border-radius: 100%;
-                width: 35px;
+
+
+
+.crv-footer{
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+
+  .crv-reactions{
+
+    display: flex;
+    padding-right: 5px;
+    padding-left: 0px;
+
+    justify-content:start;
+    @media (min-width: 576px) { 
+      justify-content:flex-end;
+      padding-right: 25px;
+    }
+
+    .p-reactions{
+      visibility:hidden;
+      color: #64707D;
+      @media (min-width: 576px) { 
+       visibility:visible;
+       padding-left: 5px;
+       color: #64707D;
+       }
+      
+    }
+    
+  }
+  .crv-comments{
+    display: flex;
+    .p-comment{
+      padding-left: 5px;
+      visibility:hidden;
+      color: #64707D;
+      @media (min-width: 576px) { 
+        visibility:visible;
+        padding-left: 5px;
+        color: #64707D;
+        }
+    }
+  }
+  .crv-time{
+    
+    display: flex;
+    justify-content:flex-end;
+    color: #64707D;
+    padding-right: 5px;
+  }
+  .crv-button{
+  
+    display: flex;
+    justify-content:start;
+    padding-left: 0;
+   button{
+    background: #D2D6DB;
+    color: black;
+    height: 30px;
+    padding-bottom: 11px;
+    padding-top: 0;
+    border: 0px;
+
+   }
+  }
+  
 }
+
 
 .aside-izquierdo
 {
