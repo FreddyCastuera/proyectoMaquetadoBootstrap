@@ -67,11 +67,11 @@ header {
 
 /*ASIDE IZQUIERDO*/
 .pl-10 {
-  padding-left: 5% !important;
+  padding-left: 10% !important;
 }
 
 .pr-10 {
-  padding-right: 5% !important;
+  padding-right: 10% !important;
 }
 
 .oscar {
@@ -333,14 +333,8 @@ header {
 
 
   }
-<<<<<<< HEAD
-}         
-*//*# sourceMappingURL=styles.css.map */
-=======
 }        
 */
 .toggle:active {
   display: none;
-}
-/*# sourceMappingURL=styles.css.map */
->>>>>>> 602f6c6653638c1ff689b82ff4d0c2ede55922a2
+}/*# sourceMappingURL=styles.css.map */
