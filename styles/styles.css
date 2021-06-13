@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -21,12 +22,9 @@ html {
 .right .list-group-flush li:not(:first-child) {
   margin-left: 5%;
 }
+
 .right .list-group-flush li:not(:first-child):hover {
   color: blue;
-}
-
-.center {
-  background-color: green;
 }
 
 .left,
@@ -61,55 +59,207 @@ html {
   padding-right: 10rem !important;
 }
 
-.crv-encabezado {
-  margin-left: 45px;
+.crv-menupost {
+  margin-top: 4px;
 }
+
+.crv-menupost .crv-itemmenu {
+  visibility: hidden;
+}
+
+@media (min-width: 576px) {
+  .crv-menupost .crv-itemmenu {
+    visibility: visible;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+  .crv-menupost .crv-itemmenu div a {
+    font-size: 12px;
+    color: black;
+    font-weight: 200;
+  }
+  .crv-menupost .crv-itemmenu div a:hover {
+    font-weight: 500;
+  }
+}
+
+.crv-encabezado {
+  padding-left: 0px;
+  color: #08090A;
+}
+
 @media (min-width: 576px) {
   .crv-encabezado {
-    margin-left: 0px;
+    padding-left: 45px;
+    color: #08090A;
   }
 }
 
-.crv-encabezadodetalle {
+.crv-encabezado .crv-encabezadodetalle {
   font-size: 25px;
   font-weight: bold;
+  margin-bottom: 0px;
 }
+
 @media (min-width: 576px) {
-  .crv-encabezadodetalle {
-    font-size: 20px;
+  .crv-encabezado .crv-encabezadodetalle {
+    font-size: 25px;
   }
 }
 
-.foto {
+.crv-encabezado a {
+  color: #64707D;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.card-body .d-flex .foto {
   border-radius: 100%;
   width: 35px;
+}
+
+.card-body .d-flex h5 {
+  font-weight: 300;
+  color: #64707D;
+}
+
+.card-body .d-flex p {
+  font-size: 10px;
+  color: #64707D;
+}
+
+.crv-footer {
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 0;
+  padding-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.crv-footer .crv-reactions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 5px;
+  padding-left: 0px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+@media (min-width: 576px) {
+  .crv-footer .crv-reactions {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 25px;
+  }
+}
+
+.crv-footer .crv-reactions .p-reactions {
+  visibility: hidden;
+  color: #64707D;
+}
+
+@media (min-width: 576px) {
+  .crv-footer .crv-reactions .p-reactions {
+    visibility: visible;
+    padding-left: 5px;
+    color: #64707D;
+  }
+}
+
+.crv-footer .crv-comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.crv-footer .crv-comments .p-comment {
+  padding-left: 5px;
+  visibility: hidden;
+  color: #64707D;
+}
+
+@media (min-width: 576px) {
+  .crv-footer .crv-comments .p-comment {
+    visibility: visible;
+    padding-left: 5px;
+    color: #64707D;
+  }
+}
+
+.crv-footer .crv-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #64707D;
+  padding-right: 5px;
+}
+
+.crv-footer .crv-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding-left: 0;
+}
+
+.crv-footer .crv-button button {
+  background: #D2D6DB;
+  color: black;
+  height: 30px;
+  padding-bottom: 11px;
+  padding-top: 0;
+  border: 0px;
 }
 
 .aside-izquierdo .color-blue {
   color: #3b49df;
 }
+
 .aside-izquierdo .carta-titulo {
   font-size: 1.13rem;
 }
+
 .aside-izquierdo .carta-parrafo {
   color: #4d5760;
   font-size: 1rem;
 }
+
 .aside-izquierdo .btn-primary {
   background-color: #3b49df;
   border: #3b49df;
   width: 100%;
 }
+
 .aside-izquierdo .liga {
   display: block;
   border-radius: 5px;
   color: #3b49df;
   margin-top: 1rem;
-  padding: 0.3rem 0;
+  padding: 0.3rem  0;
 }
+
 .aside-izquierdo a:hover.tipo-boton {
   background-color: #323ebe;
 }
+
 .aside-izquierdo a:hover.tipo-liga {
   background-color: rgba(0, 0, 0, 0.035);
-}/*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */
