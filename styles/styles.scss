@@ -60,7 +60,10 @@ header{
   z-index: 100;
 }
 .not-header {
-  margin-top: 10vh;
+  margin-top: 0vh;
+  @media (min-width: 576px) { 
+    margin-top: 10vh;
+  }
 }
 
 .right {
@@ -109,6 +112,30 @@ header{
   
  }
 }
+}
+
+.crv-menumovil{
+  visibility: visible;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  p{
+    margin-bottom: 8px;
+   
+    font-size: 1.5rem;
+  }
+  .dropdown{
+    background: white; 
+    button{
+     
+      padding: 6px 11px;
+      border-radius: 4px;
+      border:0.5px solid#64707D;;
+    }
+  }
+  @media (min-width: 576px) { 
+    visibility: hidden;
+  }
 }
 
 .crv-encabezado{
@@ -420,7 +447,7 @@ header{
       flex-grow: 1;
 
         &.sign-in{ 
-          font-size: 1.em;
+          font-size: 1.0em;
           font-weight: bold;   
           color: #08090A; 
         }
