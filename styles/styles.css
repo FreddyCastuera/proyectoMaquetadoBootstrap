@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -22,7 +21,6 @@ html {
 .right .list-group-flush li:not(:first-child) {
   margin-left: 5%;
 }
-
 .right .list-group-flush li:not(:first-child):hover {
   color: blue;
 }
@@ -66,7 +64,6 @@ html {
 .crv-encabezado {
   margin-left: 45px;
 }
-
 @media (min-width: 576px) {
   .crv-encabezado {
     margin-left: 0px;
@@ -77,7 +74,6 @@ html {
   font-size: 25px;
   font-weight: bold;
 }
-
 @media (min-width: 576px) {
   .crv-encabezadodetalle {
     font-size: 20px;
@@ -96,61 +92,49 @@ html {
   /* fin de popular list*/
   /*  fin carta 3 aside izquierdo */
 }
-
 .aside-izquierdo .color-blue {
   color: #3b49df;
 }
-
 .aside-izquierdo .carta-titulo {
   font-size: 1.13rem;
 }
-
 .aside-izquierdo .carta-parrafo {
   color: #4d5760;
   font-size: 1rem;
 }
-
 .aside-izquierdo .btn-primary {
   background-color: #3b49df;
   border: #3b49df;
   width: 100%;
 }
-
 .aside-izquierdo .liga {
   display: block;
   border-radius: 5px;
   color: #3b49df;
   margin-top: 1rem;
-  padding: 0.3rem  0;
+  padding: 0.3rem 0;
 }
-
 .aside-izquierdo a:hover.tipo-boton {
   background-color: #323ebe;
 }
-
 .aside-izquierdo a:hover.tipo-liga {
   background-color: rgba(0, 0, 0, 0.035);
 }
-
 .aside-izquierdo .popular-list {
   max-height: 250px;
   overflow-y: scroll;
 }
-
 .aside-izquierdo .popular-list a.ocultar {
   opacity: 0%;
 }
-
 .aside-izquierdo .popular-list a.ocultar:hover {
   opacity: 100%;
   background-color: #323ebe;
 }
-
 .aside-izquierdo .popular-list a.liga-popular {
   font-size: 1.2rem;
   color: black;
 }
-
 .aside-izquierdo .popular-list a.liga-popular:hover {
   text-decoration: none;
   color: #323ebe;
@@ -158,4 +142,6 @@ html {
 }
 
 /* fin del aside izquierdo*/
-/*# sourceMappingURL=styles.css.map */
+.padre:hover a:last-child {
+  opacity: 100%;
+}/*# sourceMappingURL=styles.css.map */

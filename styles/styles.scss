@@ -175,6 +175,9 @@ html {
 
 
 }  /* fin del aside izquierdo*/
-
-
+.padre:hover{
+  a:last-child{
+    opacity: 100%;
+  }
+}
 
