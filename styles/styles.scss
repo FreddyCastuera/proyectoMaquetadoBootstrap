@@ -152,7 +152,7 @@ html {
           }
           a.ocultar:hover{
               opacity: 100%; 
-              background-color:$color-boton-azul-hover;   
+              background-color:  pink ;/*$color-boton-azul-hover;*/
 
            }      
 
@@ -168,12 +168,7 @@ html {
           }
 
 
-          .padre:hover{
-            a:last-child{
-              opacity: 100%;
-              background-color: $color-azul;
-            }
-          }          
+       
 
 
   
@@ -191,6 +186,18 @@ html {
   min-width: 300px;
 }
 
+/*
+.padre:hover{
+  a:last-child{
+    opacity: 100%;
+    background-color: red ;
+
+    :hover{
+      background-color: yellow ;
+    }
 
 
+  }
+}         
+*/
 

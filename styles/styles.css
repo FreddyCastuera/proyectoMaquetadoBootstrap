@@ -147,7 +147,8 @@ html {
 
 .aside-izquierdo .popular-list a.ocultar:hover {
   opacity: 100%;
-  background-color: #323ebe;
+  background-color: pink;
+  /*$color-boton-azul-hover;*/
 }
 
 .aside-izquierdo .popular-list a.liga-popular {
@@ -161,13 +162,23 @@ html {
   /* background-color: rgba(8, 9, 10, 0.05); */
 }
 
-.aside-izquierdo .popular-list .padre:hover a:last-child {
-  opacity: 100%;
-  background-color: #3b49df;
-}
-
 /* fin del aside izquierdo*/
 .oscar {
   min-width: 300px;
 }
+
+/*
+.padre:hover{
+  a:last-child{
+    opacity: 100%;
+    background-color: red ;
+
+    :hover{
+      background-color: yellow ;
+    }
+
+
+  }
+}         
+*/
 /*# sourceMappingURL=styles.css.map */
