@@ -6,9 +6,28 @@
 html {
   font-size: 16px;
 }
-.left,
-.center,
-.right {
+@media screen and (max-width:768px){
+  nav{
+    .nav-icons{
+      margin-left:-10px;
+    }
+    .nav-buttons{
+      margin-right:-25px;
+    }
+  }
+}
+header{
+  background-color: ghostwhite;
+}
+.nav-icons{
+  margin-left:4%;
+}
+.nav-buttons{
+  margin-right:4%;
+}
+
+
+.left,.center,.right {
   height: 90vh;
 }
 
@@ -17,6 +36,8 @@ html {
   background-color: transparent;
 
 }
+
+
 .right {
   .list-group-flush {
     li:not(:first-child) {
@@ -383,6 +404,7 @@ html {
   min-width: 300px;
 }
 
+
 /*
 .padre:hover{
   a:last-child{
@@ -395,6 +417,12 @@ html {
 
 
   }
-}         
+}        
 */
+
+.toggle:active {
+
+  display: none;
+
+}
 
