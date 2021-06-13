@@ -62,7 +62,7 @@ header{
 .not-header {
   margin-top: 0vh;
   @media (min-width: 576px) { 
-    margin-top: 10vh;
+    margin-top: 7vh;
   }
 }
 
@@ -94,6 +94,9 @@ header{
    visibility: hidden;
    @media (min-width: 576px) { 
     visibility: visible;
+    p{
+      font-weight: bold;
+    }
   }
  .crv-itemmenu{
     display: flex;
@@ -135,6 +138,7 @@ header{
   }
   @media (min-width: 576px) { 
     visibility: hidden;
+    height: 0px;
   }
 }
 
