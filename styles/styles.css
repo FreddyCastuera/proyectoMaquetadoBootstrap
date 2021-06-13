@@ -54,7 +54,12 @@ header {
 }
 
 .not-header {
-  margin-top: 10vh;
+  margin-top: 0vh;
+}
+@media (min-width: 576px) {
+  .not-header {
+    margin-top: 7vh;
+  }
 }
 
 .right div.list-group:last-of-type {
@@ -86,6 +91,9 @@ header {
   .crv-menupost {
     visibility: visible;
   }
+  .crv-menupost p {
+    font-weight: bold;
+  }
 }
 .crv-menupost .crv-itemmenu {
   display: flex;
@@ -99,6 +107,31 @@ header {
 }
 .crv-menupost .crv-itemmenu div a:hover {
   font-weight: 500;
+}
+
+.crv-menumovil {
+  visibility: visible;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.crv-menumovil p {
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+}
+.crv-menumovil .dropdown {
+  background: white;
+}
+.crv-menumovil .dropdown button {
+  padding: 6px 11px;
+  border-radius: 4px;
+  border: 0.5px solid #64707D;
+}
+@media (min-width: 576px) {
+  .crv-menumovil {
+    visibility: hidden;
+    height: 0px;
+  }
 }
 
 .crv-encabezado {
@@ -281,7 +314,8 @@ header {
 }
 .aside-izquierdo .popular-list a.hijo-lista-boton:hover {
   opacity: 100%;
-  background-color: #323ebe;
+  background-color: #323ebe !important;
+  border-color: #323ebe;
 }
 .aside-izquierdo .popular-list a.hijo-lista-link {
   font-size: 1rem;
@@ -290,8 +324,7 @@ header {
 }
 .aside-izquierdo .popular-list a.hijo-lista-link:hover {
   text-decoration: none;
-  color: #323ebe;
-  /* background-color: rgba(8, 9, 10, 0.05); */
+  color: #323ebe !important;
 }
 .aside-izquierdo .popular-list a.hijo-lista-link:hover + a {
   opacity: 100%;
@@ -338,28 +371,17 @@ header {
   padding-right: 0.4rem;
 }
 .aside-izquierdo .menu-link-hover label {
-  color: red;
+  font-size: smaller;
+}
+.aside-izquierdo .redes {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.aside-izquierdo .redes svg:hover path {
+  fill: #202428e0;
 }
 
 /* fin del aside izquierdo*/
 .oscar {
   min-width: 300px;
-}
-
-/*
-.padre:hover{
-  a:last-child{
-    opacity: 100%;
-    background-color: red ;
-
-    :hover{
-      background-color: yellow ;
-    }
-
-
-  }
-}        
-*/
-.toggle:active {
-  display: none;
 }/*# sourceMappingURL=styles.css.map */
