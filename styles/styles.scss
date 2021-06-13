@@ -451,7 +451,7 @@ header{
       flex-grow: 1;
 
         &.sign-in{ 
-          font-size: 1.0em;
+          font-size: 1rem;
           font-weight: bold;   
           color: #08090A; 
         }
@@ -470,16 +470,17 @@ header{
       
     }
 
-    label
-    {
-      color:red;
-    }
-
-   
-
 }
 
+.redes {
+  padding-left: 2rem;
+  padding-right: 2rem;
 
+  svg:hover path {
+    fill: #202428e0
+  }
+
+}
 
 
 
@@ -492,24 +493,5 @@ header{
 }
 
 
-/*
-.padre:hover{
-  a:last-child{
-    opacity: 100%;
-    background-color: red ;
 
-    :hover{
-      background-color: yellow ;
-    }
-
-
-  }
-}        
-*/
-
-.toggle:active {
-
-  display: none;
-
-}
 
