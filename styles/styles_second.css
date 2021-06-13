@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -21,12 +20,39 @@ html {
   nav .nav-buttons {
     margin-right: -25px;
   }
-}
 
+  .fila-links {
+    border: 1px solid red;
+    width: 100% !important;
+  }
+  .fila-links ul {
+    border: 1px solid blue;
+    width: 100% !important;
+  }
+
+  .fila-logos {
+    border: 1px solid red;
+  }
+
+  .fila-texto-uno {
+    border: 1px solid red;
+  }
+  .fila-texto-uno p {
+    border: 1px solid blue;
+    width: 100% !important;
+  }
+
+  .fila-texto-dos {
+    border: 1px solid red;
+  }
+  .fila-texto-dos p {
+    border: 1px solid blue;
+    width: 100% !important;
+  }
+}
 header {
   background-color: ghostwhite;
 }
-
 header nav {
   background-color: ghostwhite;
 }
@@ -79,16 +105,13 @@ header nav {
 .footer {
   background-color: gainsboro;
 }
-
 .footer .fila-links {
   height: 15vh;
 }
-
 .footer .fila-links ul {
   width: 50%;
-  height: 15vh;
+  height: 10vh;
 }
-
 .footer .fila-links ul li {
   font-size: 0.8rem;
   width: 11%;
@@ -113,12 +136,11 @@ header nav {
 }
 
 .avoid-overlap {
-  top: 15vh;
+  top: 10vh;
 }
 
 .heart:hover, .unicorn:hover, .flag:hover, .more:hover {
-  -webkit-filter: opacity(0.3);
-          filter: opacity(0.3);
+  filter: opacity(0.3);
 }
 
 .simple-imagen {
@@ -127,21 +149,12 @@ header nav {
 
 .simple-text {
   height: 2.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
   font-size: 0.7rem;
   padding-left: 1rem;
 }
-
 .simple-text p:first-child {
   margin-bottom: 1px;
-}
-/*# sourceMappingURL=styles_second.css.map */
+}/*# sourceMappingURL=styles_second.css.map */

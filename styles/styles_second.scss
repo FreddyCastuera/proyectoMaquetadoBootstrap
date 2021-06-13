@@ -21,6 +21,37 @@
         margin-right:-25px;
       }
     }
+    .fila-links{
+        border:1px solid red;
+        width: 100% !important;
+        ul{
+           border:1px solid blue; 
+           width: 100% !important;
+        }
+        
+  
+
+    }
+    .fila-logos{
+        border:1px solid red;
+    }
+    .fila-texto-uno{
+        border:1px solid red;
+        p{
+            border:1px solid blue;
+            width: 100% !important;
+        }
+    }
+    
+    .fila-texto-dos{
+        border:1px solid red;
+        p{
+            border:1px solid blue;
+            width: 100% !important;
+        }
+    }
+
+
   }
   header{
     background-color: ghostwhite;
@@ -71,11 +102,13 @@
 
         ul{
             width: 50%;
-            height: 15vh;
+            height: 10vh;
+         
             li{
                 font-size:0.8rem;
                 width: 11%;
                 text-align: center;
+
                 
             }
         }
@@ -103,8 +136,9 @@
     }
 }
 
+
 .avoid-overlap{
-    top:15vh;
+    top:10vh;
 }
 
 .heart:hover,.unicorn:hover,.flag:hover,.more:hover{
