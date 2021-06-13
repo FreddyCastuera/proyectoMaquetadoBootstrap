@@ -333,5 +333,14 @@ header {
 
 
   }
+<<<<<<< HEAD
 }         
 *//*# sourceMappingURL=styles.css.map */
+=======
+}        
+*/
+.toggle:active {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */
+>>>>>>> 602f6c6653638c1ff689b82ff4d0c2ede55922a2
