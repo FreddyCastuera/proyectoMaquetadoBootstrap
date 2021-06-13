@@ -64,7 +64,7 @@ html {
 }
 
 .crv-menupost {
-  margin-top: 4px;
+  margin-top: 15px;
 }
 
 .crv-menupost .crv-itemmenu {
@@ -121,18 +121,25 @@ html {
   font-size: 12px;
 }
 
+.crv-encabezado p:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.card-body .d-flex {
+  height: 35px;
+}
+
 .card-body .d-flex .foto {
   border-radius: 100%;
   width: 35px;
+  cursor: pointer;
 }
 
-.aside-izquierdo {
-  /* inicio:  styles del la carta 1   */
-  /* fin carta 1 aside izquierdo*/
-  /* inicio carta 3 aside izquierdo */
-  /* fin de popular list*/
-  /*  fin carta 3 aside izquierdo */
+.card-body .d-flex .name {
+  cursor: pointer;
 }
+
 .card-body .d-flex h5 {
   font-weight: 300;
   color: #64707D;
@@ -154,6 +161,12 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (min-width: 576px) {
+  .crv-footer {
+    margin-left: 37px;
+  }
 }
 
 .crv-footer .crv-reactions {
@@ -189,6 +202,11 @@ html {
   }
 }
 
+.crv-footer .crv-reactions:hover {
+  background: darkgray;
+  cursor: pointer;
+}
+
 .crv-footer .crv-comments {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,6 +225,11 @@ html {
     padding-left: 5px;
     color: #64707D;
   }
+}
+
+.crv-footer .crv-comments:hover {
+  background: darkgray;
+  cursor: pointer;
 }
 
 .crv-footer .crv-time {
@@ -237,6 +260,14 @@ html {
   padding-bottom: 11px;
   padding-top: 0;
   border: 0px;
+}
+
+.aside-izquierdo {
+  /* inicio:  styles del la carta 1   */
+  /* fin carta 1 aside izquierdo*/
+  /* inicio carta 3 aside izquierdo */
+  /* fin de popular list*/
+  /*  fin carta 3 aside izquierdo */
 }
 
 .aside-izquierdo .color-blue {
@@ -273,21 +304,26 @@ html {
 .aside-izquierdo a:hover.tipo-liga {
   background-color: rgba(0, 0, 0, 0.035);
 }
+
 .aside-izquierdo .popular-list {
   max-height: 250px;
   overflow-y: scroll;
 }
+
 .aside-izquierdo .popular-list a.ocultar {
   opacity: 0%;
 }
+
 .aside-izquierdo .popular-list a.ocultar:hover {
   opacity: 100%;
   background-color: #323ebe;
 }
+
 .aside-izquierdo .popular-list a.liga-popular {
   font-size: 1.2rem;
   color: black;
 }
+
 .aside-izquierdo .popular-list a.liga-popular:hover {
   text-decoration: none;
   color: #323ebe;
@@ -297,5 +333,5 @@ html {
 /* fin del aside izquierdo*/
 .padre:hover a:last-child {
   opacity: 100%;
-}/*# sourceMappingURL=styles.css.map */
+}
 /*# sourceMappingURL=styles.css.map */
