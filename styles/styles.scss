@@ -142,41 +142,87 @@ html {
 
 
 
+    .popular-tags-title
+    {
+
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+
     .popular-list{
 
-        max-height: 250px;               
+        max-height: 350px;               
         overflow-y:scroll;   
 
-          a.ocultar{
+          
+          a.hijo-lista-boton{
             opacity: 0%;
           }
-          a.ocultar:hover{
+          a.hijo-lista-boton:hover{
               opacity: 100%; 
-              background-color:  pink ;/*$color-boton-azul-hover;*/
+              background-color:  $color-boton-azul-hover;
 
            }      
 
-          a.liga-popular{
-            font-size: 1.2rem;
+          a.hijo-lista-link{
+            font-size: 1.0rem;
             color: black;        
+            flex-grow: 1;
           }
 
-          a.liga-popular:hover{
+
+          a.hijo-lista-link:hover{
             text-decoration: none;
             color: $color-boton-azul-hover; 
             /* background-color: rgba(8, 9, 10, 0.05); */
+
+            
+          }
+          
+          a.hijo-lista-link:hover + a {
+            opacity: 100%; 
+            background-color:  $color-azul;
           }
 
 
-       
+          .padre-list-items{
 
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
 
+          
+          .list-group-item{
+
+            height: 4rem;
+          }
+
+          /*
+          .list-group-item:hover {
+            background-color: red;
+          }
+          */
   
    }   /* fin de popular list*/
 
    /*  fin carta 3 aside izquierdo */
 
 
+
+      /*  inicio carta 3 aside izquierdo */
+      .card-formato-shop{   
+       
+
+        display: block;
+        font-size: 1.4em;
+        font-weight: bold;      
+        color:#3b49df;   
+
+        
+
+      }  /*  fin carta 3 aside izquierdo */
 
 
 

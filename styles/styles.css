@@ -99,6 +99,8 @@ html {
   /* inicio carta 3 aside izquierdo */
   /* fin de popular list*/
   /*  fin carta 3 aside izquierdo */
+  /*  inicio carta 3 aside izquierdo */
+  /*  fin carta 3 aside izquierdo */
 }
 
 .aside-izquierdo .color-blue {
@@ -136,30 +138,71 @@ html {
   background-color: rgba(0, 0, 0, 0.035);
 }
 
-.aside-izquierdo .popular-list {
-  max-height: 250px;
-  overflow-y: scroll;
+.aside-izquierdo .popular-tags-title {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
-.aside-izquierdo .popular-list a.ocultar {
+.aside-izquierdo .popular-list {
+  max-height: 350px;
+  overflow-y: scroll;
+  /*
+          .list-group-item:hover {
+            background-color: red;
+          }
+          */
+}
+
+.aside-izquierdo .popular-list a.hijo-lista-boton {
   opacity: 0%;
 }
 
-.aside-izquierdo .popular-list a.ocultar:hover {
+.aside-izquierdo .popular-list a.hijo-lista-boton:hover {
   opacity: 100%;
-  background-color: pink;
-  /*$color-boton-azul-hover;*/
+  background-color: #323ebe;
 }
 
-.aside-izquierdo .popular-list a.liga-popular {
-  font-size: 1.2rem;
+.aside-izquierdo .popular-list a.hijo-lista-link {
+  font-size: 1.0rem;
   color: black;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
-.aside-izquierdo .popular-list a.liga-popular:hover {
+.aside-izquierdo .popular-list a.hijo-lista-link:hover {
   text-decoration: none;
   color: #323ebe;
   /* background-color: rgba(8, 9, 10, 0.05); */
+}
+
+.aside-izquierdo .popular-list a.hijo-lista-link:hover + a {
+  opacity: 100%;
+  background-color: #3b49df;
+}
+
+.aside-izquierdo .popular-list .padre-list-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aside-izquierdo .popular-list .list-group-item {
+  height: 4rem;
+}
+
+.aside-izquierdo .card-formato-shop {
+  display: block;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #3b49df;
 }
 
 /* fin del aside izquierdo*/
