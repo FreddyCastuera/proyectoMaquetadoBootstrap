@@ -439,11 +439,17 @@ header{
       
     }
 
-  
-
 }
 
+.redes {
+  padding-left: 2rem;
+  padding-right: 2rem;
 
+  svg:hover path {
+    fill: #202428e0
+  }
+
+}
 
 
 
@@ -456,24 +462,5 @@ header{
 }
 
 
-/*
-.padre:hover{
-  a:last-child{
-    opacity: 100%;
-    background-color: red ;
 
-    :hover{
-      background-color: yellow ;
-    }
-
-
-  }
-}        
-*/
-
-.toggle:active {
-
-  display: none;
-
-}
 

@@ -426,26 +426,17 @@ header {
   padding-right: 0.4rem;
 }
 
+.aside-izquierdo .redes {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.aside-izquierdo .redes svg:hover path {
+  fill: #202428e0;
+}
+
 /* fin del aside izquierdo*/
 .oscar {
   min-width: 300px;
-}
-
-/*
-.padre:hover{
-  a:last-child{
-    opacity: 100%;
-    background-color: red ;
-
-    :hover{
-      background-color: yellow ;
-    }
-
-
-  }
-}        
-*/
-.toggle:active {
-  display: none;
 }
 /*# sourceMappingURL=styles.css.map */
