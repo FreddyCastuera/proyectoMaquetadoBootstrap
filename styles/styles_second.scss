@@ -12,6 +12,29 @@
     height: 10vh;
     
 }
+@media screen and (max-width:768px){
+    nav{
+      .nav-icons{
+        margin-left:-10px;
+      }
+      .nav-buttons{
+        margin-right:-25px;
+      }
+    }
+  }
+  header{
+    background-color: ghostwhite;
+    nav{
+        background-color: ghostwhite;
+    }
+  }
+  .nav-icons{
+    margin-left:4%;
+  }
+  .nav-buttons{
+    margin-right:4%;
+  }
+
 .left,.center,.right{
     height: 90vh;
 }
