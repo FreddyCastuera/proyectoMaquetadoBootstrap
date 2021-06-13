@@ -3,6 +3,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .header {
@@ -43,9 +44,39 @@
   height: 500vh;
 }
 
-.make-me-sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+.fila {
+  height: 20px;
 }
-/*# sourceMappingURL=styles_second.css.map */
+
+.footer {
+  background-color: gainsboro;
+}
+.footer .fila-links {
+  height: 15vh;
+}
+.footer .fila-links ul {
+  width: 50%;
+  height: 15vh;
+}
+.footer .fila-links ul li {
+  font-size: 0.8rem;
+  width: 11%;
+  text-align: center;
+}
+
+.fila-logos .logos {
+  width: 15%;
+  height: 5vh;
+}
+
+.fila-texto-uno p {
+  font-size: 0.8rem;
+  width: 55%;
+  text-align: center;
+}
+
+.fila-texto-dos p {
+  font-size: 0.8rem;
+  width: 50%;
+  text-align: center;
+}/*# sourceMappingURL=styles_second.css.map */

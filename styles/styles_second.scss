@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    list-style: none;
 }
 
 .header{
@@ -35,10 +36,44 @@
 .left,.center,.right{
     height: 500vh;
 }
+.fila{
+    height: 20px;
+}
+.footer{
+    background-color: gainsboro;
+    .fila-links{
+        height: 15vh;
 
-.make-me-sticky {
-    position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-      
-  }
+        ul{
+            width: 50%;
+            height: 15vh;
+            li{
+                font-size:0.8rem;
+                width: 11%;
+                text-align: center;
+                
+            }
+        }
+    }
+}
+.fila-logos{
+    .logos{
+        width: 15%;
+        height: 5vh;
+    }
+}
+.fila-texto-uno{
+    p{
+        font-size:0.8rem;
+        width: 55%;
+        text-align: center;
+    }
+}
+
+.fila-texto-dos{
+    p{
+        font-size:0.8rem;
+        width: 50%;
+        text-align: center;
+    }
+}
