@@ -30,6 +30,10 @@ html {
     width: 100% !important;
   }
 
+  .footer {
+    margin-bottom: 20px;
+  }
+
   .fila-logos {
     border: 1px solid red;
   }
@@ -157,4 +161,7 @@ header nav {
 }
 .simple-text p:first-child {
   margin-bottom: 1px;
+}
+.buttons-left {
+  margin-top: 10px !important;
 }/*# sourceMappingURL=styles_second.css.map */
