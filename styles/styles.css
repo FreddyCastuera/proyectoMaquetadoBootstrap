@@ -82,7 +82,7 @@ header {
 }
 
 .crv-menupost {
-  margin-top: 1opx;
+  margin-top: 10px;
   visibility: hidden;
 }
 
@@ -211,19 +211,16 @@ header {
 
 .crv-footer .crv-reactions .p-reactions {
   visibility: hidden;
-  color: #64707D;
 }
 
 @media (min-width: 576px) {
   .crv-footer .crv-reactions .p-reactions {
     visibility: visible;
     padding-left: 5px;
-    color: #64707D;
   }
 }
 
 .crv-footer .crv-reactions:hover {
-  background: darkgray;
   cursor: pointer;
 }
 
@@ -248,7 +245,6 @@ header {
 }
 
 .crv-footer .crv-comments:hover {
-  background: darkgray;
   cursor: pointer;
 }
 
@@ -407,7 +403,7 @@ header {
 }
 
 .aside-izquierdo .menu-link-hover a {
-  color: #4d5760;
+  color: #202428;
   font-size: 1.0rem;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -415,7 +411,7 @@ header {
 }
 
 .aside-izquierdo .menu-link-hover a.sign-in {
-  font-size: 1.1em;
+  font-size: 1rem;
   font-weight: bold;
   color: #08090A;
 }

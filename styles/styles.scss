@@ -87,7 +87,7 @@ header{
 }
 
 .crv-menupost{
-  margin-top: 1opx;
+  margin-top: 10px;
    visibility: hidden;
    @media (min-width: 576px) { 
     visibility: visible;
@@ -200,18 +200,18 @@ header{
 
     .p-reactions{
       visibility:hidden;
-      color: #64707D;
+      
       @media (min-width: 576px) { 
        visibility:visible;
        padding-left: 5px;
-       color: #64707D;
+      
        }
       
     }
     
   }
   .crv-reactions:hover{
-    background: darkgray;
+
     cursor: pointer;
   }
 
@@ -230,7 +230,7 @@ header{
   }
 
   .crv-comments:hover{
-    background: darkgray;
+   
     cursor: pointer;
   }
   .crv-time{
@@ -420,7 +420,7 @@ header{
       flex-grow: 1;
 
         &.sign-in{ 
-          font-size: 1.em;
+          font-size: 1rem;
           font-weight: bold;   
           color: #08090A; 
         }
@@ -439,12 +439,7 @@ header{
       
     }
 
-    label
-    {
-      color:red;
-    }
-
-   
+  
 
 }
 
