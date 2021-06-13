@@ -58,7 +58,7 @@ html {
 /*ASIDE IZQUIERDO*/
 
 .pl-10 {
-  padding-left: 10rem !important;
+  padding-left: 10rem;
 }
 .pr-10 {
   padding-right: 10rem !important;
@@ -94,6 +94,8 @@ html {
     color: $color-azul;    
   }
  
+
+  /* inicio:  styles del la carta 1   */
   .carta-titulo {
     font-size: 1.13rem;
   }
@@ -117,6 +119,7 @@ html {
     padding: 0.3rem  0;
   }
   
+
   a:hover {
 
     &.tipo-boton{
@@ -127,12 +130,51 @@ html {
     }
   }
 
+   /* fin carta 1 aside izquierdo*/
 
+
+
+
+   /* inicio carta 3 aside izquierdo */
+
+
+
+    .popular-list{
+
+        max-height: 250px;               
+        overflow-y:scroll;   
+
+          a.ocultar{
+            opacity: 0%;
+          }
+          a.ocultar:hover{
+              opacity: 100%; 
+              background-color:$color-boton-azul-hover;   
+
+           }      
+
+          a.liga-popular{
+            font-size: 1.2rem;
+            color: black;        
+          }
+
+          a.liga-popular:hover{
+            text-decoration: none;
+            color: $color-boton-azul-hover; 
+            /* background-color: rgba(8, 9, 10, 0.05); */
+          }
+
+                   
+
+  
+   }   /* fin de popular list*/
+
+   /*  fin carta 3 aside izquierdo */
 
   
 
 
-}
+}  /* fin del aside izquierdo*/
 
 
 

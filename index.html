@@ -34,15 +34,17 @@
       <div class="row not-header">
         <aside class="col-md-3 col-xl-3 left  d-md-flex flex-md-column oscar pl-10 aside-izquierdo">
 
-                <div class="card w-100  mt-3">
-                  <div class="card-body d-md-flex flex-md-column justify-content-center">
+            
+                <!--1.- recuadro  aside izquierdo-->
+                <div class="card w-100  mt-3" >
+                  <div class="card-body d-md-flex flex-md-column justify-content-center"  >
                     <p class="card-title font-weight-bold carta-titulo"> <span class=" font-weight-bold color-blue  " >DEV Community</span> is a community of 635,930 amazing developers </p>                          
                     <p class="card-text carta-parrafo">We´re place where coders share, stay up-to-date and grow their careers.</p>
                     <div><a href="#" class="btn btn-primary text-center tipo-boton ">Create new account</a></div>
                     <div><a href="#" class="card-link text-center liga  tipo-liga">Log in</a></div>
                   </div>
                 </div>
-
+                <!--2.- menu aside izquierdo-->
                 <div class="list-group w-100 shadow mt-3">       
                   <button type="button" class="list-group-item list-group-item-action" data-toggle="collapse"
                         data-target="#demo">
@@ -349,21 +351,29 @@
 
 
                 </div>
-                <div>
-                    <ul class="list-group list-group-flush w-100 mb-5 border-bottom d-flex flex-column align-items-start mt-3">
-                        <li class="list-group-item border-bottom-0 list-group-item-action fw-bold "><p >Popular Tags</p></li>
-                        <li class="list-group-item border-bottom-0 list-group-item-action" ><p>#javascript</p></li>
-                        <li class="list-group-item border-bottom-0 list-group-item-action" ><p>#webdev</p></li>
-                        <li class="list-group-item border-bottom-0 list-group-item-action"><p>#beginners</p></li>
-                        <li class="list-group-item border-bottom-0 list-group-item-action" ><p>#react</p></li>                
-                        <li class="list-group-item border-bottom-0 list-group-item-action"><p>#programming</p></li>
-                        <li class="list-group-item border-bottom-0 list-group-item-action"><p>#turorial</p></li>
-                        <li class="list-group-item border-bottom-0 list-group-item-action"><p>#python</p></li>
-                        <li class="list-group-item border-bottom-0 list-group-item-action"><p>#css</p></li>
-                        <li class="list-group-item border-bottom-0 list-group-item-action"><p>#productivity</p></li>     
-                    </ul>               
-                </div>
 
+                <!-- 3.- lista con scroll -->
+
+
+                <div class="mt-3">
+                    <p class="fw-bold p-3"> Popular Tags  </p>
+                    <ul class="list-group list-group-flush w-100 mb-5 border-bottom d-flex flex-column align-items-start mt-3  popular-list border-bottom-0">                        
+                        <li class="list-group-item border-bottom-0 list-group-item-action d-md-flex justify-content-between activa-boton" >
+                            <a href="#" class="liga-popular" >#javascript</a>                             
+                            <a href="#" class="btn  btn-secondary  ocultar " role="button" id="link1" >Follow</a> 
+                        </li>  
+                        <li class="list-group-item border-bottom-0 list-group-item-action">#webdev</li>
+                        <li class="list-group-item border-bottom-0 list-group-item-action">#beginners</li>
+                        <li class="list-group-item border-bottom-0 list-group-item-action">#react</li>                
+                        <li class="list-group-item border-bottom-0 list-group-item-action">#programming</li>
+                        <li class="list-group-item border-bottom-0 list-group-item-action">#turorial</li>
+                        <li class="list-group-item border-bottom-0 list-group-item-action">#python</li>
+                        <li class="list-group-item border-bottom-0 list-group-item-action">#css</li>
+                        <li class="list-group-item border-bottom-0 list-group-item-action">#productivity</li>     
+                    </ul>               
+                </div>             
+ 
+            
     
 
 
