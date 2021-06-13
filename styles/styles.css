@@ -54,11 +54,11 @@ html {
 
 /*ASIDE IZQUIERDO*/
 .pl-10 {
-  padding-left: 7rem;
+  padding-left: 5% !important;
 }
 
 .pr-10 {
-  padding-right: 7rem !important;
+  padding-right: 5% !important;
 }
 
 .oscar {
