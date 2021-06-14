@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -16,47 +17,43 @@ html {
   nav .nav-buttons {
     margin-right: -25px;
   }
-
   .card-right, .info-right, .main-content {
     margin-left: -12px;
     margin-right: -12px;
   }
-
   .footer {
     height: 50vh !important;
   }
-
   .fila-links {
     width: 100% !important;
   }
   .fila-links ul {
     width: 100% !important;
     height: 100px !important;
-    align-content: flex-start;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
   }
   .fila-links ul li {
     width: 20% !important;
   }
-
   .footer {
     margin-bottom: 20px;
   }
-
   .fila-logos {
     margin-top: -15px;
   }
-
   .fila-texto-uno p {
     width: 100% !important;
   }
-
   .fila-texto-dos p {
     width: 100% !important;
   }
 }
+
 .fila-logos {
   margin-top: -25px;
 }
+
 .fila-logos .logos {
   width: 180px !important;
 }
@@ -64,6 +61,7 @@ html {
 header {
   background-color: ghostwhite;
 }
+
 header nav {
   background-color: ghostwhite;
 }
@@ -116,13 +114,16 @@ header nav {
 .footer {
   background-color: gainsboro;
 }
+
 .footer .fila-links {
   height: 15vh;
 }
+
 .footer .fila-links ul {
   width: 50%;
   height: 10vh;
 }
+
 .footer .fila-links ul li {
   font-size: 0.8rem;
   width: 11%;
@@ -151,7 +152,8 @@ header nav {
 }
 
 .heart:hover, .unicorn:hover, .flag:hover, .more:hover {
-  filter: opacity(0.3);
+  -webkit-filter: opacity(0.3);
+          filter: opacity(0.3);
 }
 
 .simple-imagen {
@@ -160,15 +162,24 @@ header nav {
 
 .simple-text {
   height: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   font-size: 0.7rem;
   padding-left: 1rem;
 }
+
 .simple-text p:first-child {
   margin-bottom: 1px;
 }
+
 .buttons-left {
   margin-top: 10px !important;
 }
@@ -181,6 +192,31 @@ header nav {
 .image-container {
   margin-top: 15px;
   width: 40%;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 15px;
-}/*# sourceMappingURL=styles_second.css.map */
+}
+
+.button-commentarios {
+  border-radius: 5px;
+  border-color: #99a3ad;
+  border-width: 2px;
+}
+
+.comentarios {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.links-comments a {
+  color: #99a3ad;
+  font-size: 0.875rem;
+}
+
+.links-comments a:hover {
+  color: #64707d;
+  font-size: 0.875rem;
+}
+/*# sourceMappingURL=styles_second.css.map */

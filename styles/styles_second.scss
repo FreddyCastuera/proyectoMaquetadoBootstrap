@@ -192,3 +192,28 @@
     margin-bottom: 15px;
 }
 
+.button-commentarios{
+
+    border-radius: 5px;
+    border-color: #99a3ad;
+    border-width: 2px;
+    
+}
+.comentarios{
+    flex-grow: 1;
+}
+
+.links-comments{
+    a{
+        color: #99a3ad;
+        font-size: 0.875rem;
+    }
+
+    a:hover{
+
+        color:#64707d;
+        font-size: 0.875rem;
+
+    }
+}
+
